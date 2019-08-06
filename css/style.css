@@ -231,10 +231,8 @@ h1, h2, h3, h4, h5, h6, body {
   background-color: #f8f8f8;
 }
 #nosotros h1 {
-  font-family: 'impact';
-}
-#pol {
-
+  font-weight: 300;
+  text-align: center;
 }
 
 #header6 {
@@ -570,7 +568,7 @@ a, a:hover {
     padding: 0 30px 0 60px;
   }
   .double-buttons {
-    margin-left: -3rem;
+    margin-left: -4.5rem;
   }
 }
 
@@ -591,5 +589,8 @@ a, a:hover {
   
   .icon-text {
     padding: 0 30px;
+  }
+  .head-title {
+    font-size: 36px;
   }
 }
