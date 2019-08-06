@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 1080px;
 }
 .main-header {
-  background: url(../img/screen.jpg) no-repeat;
+  background: url(../img/screen.png) no-repeat;
   background-size: cover;
   min-height: 1080px;
 }
@@ -300,8 +300,8 @@ p {
 }
 
 .icon-text {
-  margin-left: 73px;
-  padding: 0px 25px 25px 0px;
+  margin-left: 50px;
+  padding: 0px 20px 20px 0px;
 }
 
 h3.txt-tl {
@@ -318,7 +318,7 @@ h3.txt-tl {
 }
 
 .bg-image-2 {
-  background: url('../img/pol.jpg') no-repeat center;
+  background: url('../img/pol.png') no-repeat center;
   -webkit-background-size: 100% auto;
   -moz-background-size: 100% auto;
   -o-background-size: 100% auto;
@@ -474,7 +474,7 @@ a, a:hover {
   transform: rotate(20deg);
 }
 #servicios h3{
-  font-size: 23px
+  font-size: 23px;
 }
 
 /****/
@@ -501,6 +501,12 @@ a, a:hover {
 
 .link-dec, .link-dec:hover {
   color: #000;
+}
+
+@media (min-width: 768px) {
+  .services-row {
+    padding-top: 15rem;
+  }
 }
 
 /****/
