@@ -33,7 +33,7 @@ table {
   padding: 60px 0px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, body {
   font-family: 'Lato', sans-serif;
 }
 
@@ -100,13 +100,6 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-fixed-top {
   padding: 40px 0;
   transition: all 0.5s;
-}
-
-@media (max-width: 768px) {
-	.navbar-collapse {
-		background: rgba(0, 0, 0, 0.8);
-		border-top: 0;
-	}
 }
 
 .top-nav-collapse {
@@ -299,11 +292,6 @@ p {
   font-size: 35px;
 }
 
-.icon-text {
-  margin-left: 50px;
-  padding: 0px 20px 20px 0px;
-}
-
 h3.txt-tl {
   font-size: 20px;
   line-height: 1.35;
@@ -366,19 +354,22 @@ h3.txt-tl {
   font-size: 20px
 }
 #despacho h2 {
-  font-size: 25px
+  font-size: 23px;
+  line-height: 1.5;
+  font-weight: normal;
 }
 
 #nosotros h3{
-  font-size: 25px
-  background-color: #008abd
+  font-size: 23px;
+  line-height: 1.5;
 }
 
 #nosotros {
   background-color: #008abd
 }
 #nosotros h3{
-  font-size: 27px
+  font-size: 27px;
+  line-height: 1.5;
 }
 
 #nosotros h2{
@@ -561,3 +552,44 @@ a, a:hover {
 
 /****/
 /****/
+
+.logo-container {
+  margin: 10rem 0 5rem;
+}
+
+/* Only Desktop */
+
+@media (min-width: 768px) {
+  .logo-container {
+    margin-left: -5rem;
+  }
+  .our-team {
+    padding-top: 14rem; 
+  }
+  .icon-text {
+    padding: 0 30px 0 60px;
+  }
+  .double-buttons {
+    margin-left: -3rem;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+	.navbar-collapse {
+		background: rgba(0, 0, 0, 0.8);
+		border-top: 0;
+  }
+  .sub-title {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  .our-team {
+    padding-top: 3rem; 
+  }
+  
+  .icon-text {
+    padding: 0 30px;
+  }
+}
