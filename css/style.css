@@ -593,4 +593,10 @@ a, a:hover {
   .head-title {
     font-size: 32px;
   }
+  #nosotros h3 {
+    font-size: 20px;
+  }
+  #nosotros h3, #nosotros .head-title {
+    margin: 0 -30px;
+  }
 }
