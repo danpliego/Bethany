@@ -599,4 +599,7 @@ a, a:hover {
   #nosotros h3, #nosotros .head-title {
     margin: 0 -30px;
   }
+  .main-header {
+    background-position: -500px;
+  }
 }
